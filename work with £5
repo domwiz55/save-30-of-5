@@ -1,0 +1,6 @@
+const originalAmount = 5;
+const percentageToSave = 0.3; // 30%
+const amountToSave = originalAmount * percentageToSave;
+const totalSaved = amountToSave.toFixed(2); // round to 2 decimal places for currency values
+
+console.log(`30% of £${originalAmount.toFixed(2)} is £${amountToSave.toFixed(2)}, which you can save.`);
